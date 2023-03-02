@@ -1,0 +1,9 @@
+version: "1"
+project:
+    id: ""
+packages: 
+  - path: "db/sqlc"
+    name: "db_campaign"
+    engine: "mysql"
+    schema: "db/migration/init.sql"
+    queries: "db/query/user.sql"

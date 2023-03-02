@@ -1,0 +1,7 @@
+go mod init <name>
+go get -u github.com/gin-gonic/gin
+go get -u gorm.io/gorm 
+go install github.com/kyleconroy/sqlc/cmd/sqlc@latest
+//
+go get github.com/go-sql-driver/mysql
+go build ./...
